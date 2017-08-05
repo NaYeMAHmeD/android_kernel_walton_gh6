@@ -168,6 +168,13 @@ config TOUCHSCREEN_MTK_SYNAPTICS_3320_50
 	bool "Synaptics 5.0inch for Mediatek package"
     default n
 
+config TOUCHSCREEN_MTK_EKTF2K_V3702
+        bool "ektf2k for Mediatek package"
+        default n
+
+config TOUCHSCREEN_MTK_FT6336
+        bool "FT6336 for Mediatek package"
+        default n
 
 config TOUCHSCREEN_MTK_GT9271TB_HOTKNOT
 	bool "GT911 for Mediatek package"
